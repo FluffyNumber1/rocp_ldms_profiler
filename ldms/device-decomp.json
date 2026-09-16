@@ -1,0 +1,26 @@
+{
+  "type": "static",
+  "rows": [
+    {
+      "schema": "rocm_device_counter",
+      "cols": [
+        { "src": "producer", "dst": "producer" },
+        { "src": "job_id", "dst": "job_id" },
+        { "src": "pid", "dst": "pid" },
+        { "src": "window_start_ns", "dst": "window_start_ns" },
+        { "src": "window_end_ns", "dst": "window_end_ns" },
+        { "src": "window_sequence", "dst": "window_sequence" },
+        { "src": "chunk_index", "dst": "chunk_index" },
+        { "src": "chunk_count", "dst": "chunk_count" },
+        { "src": "records[agent_id]", "dst": "agent_id" },
+        { "src": "records[sample_timestamp]", "dst": "sample_timestamp" },
+        { "src": "records[counter_instance_id]", "dst": "counter_instance_id" },
+        { "src": "records[counter_id]", "dst": "counter_id" },
+        { "src": "records[dispatch_id]", "dst": "dispatch_id" },
+        { "src": "records[counter_name]", "dst": "counter_name" },
+        { "src": "records[value_valid]", "dst": "value_valid" },
+        { "src": "records[value]", "dst": "value" }
+      ]
+    }
+  ]
+}

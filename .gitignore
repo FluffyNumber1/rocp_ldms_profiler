@@ -1,0 +1,14 @@
+# Compiler output
+/build/
+/ldms/*.o
+/ldms/*.d
+/ldms/*.so
+
+# Site-specific build recipes stay local
+/Makefile
+/ldms/Makefile
+
+# Local research and meeting materials
+/experiments/
+/presentation/
+/.chart-data-*/

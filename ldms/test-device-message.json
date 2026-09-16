@@ -1,0 +1,24 @@
+{
+  "schema": "rocm_device_raw_window",
+  "producer": "manual_test",
+  "job_id": "none",
+  "pid": 1234,
+  "window_start_ns": 1000,
+  "window_end_ns": 2000,
+  "window_sequence": 0,
+  "chunk_index": 0,
+  "chunk_count": 1,
+  "records_max_len": 256,
+  "records": [
+    {
+      "agent_id": "1",
+      "sample_timestamp": "1500",
+      "counter_instance_id": "10",
+      "counter_id": "7",
+      "dispatch_id": "0",
+      "counter_name": "SQ_WAVES",
+      "value_valid": "1",
+      "value": 42.5
+    }
+  ]
+}

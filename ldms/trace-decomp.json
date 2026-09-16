@@ -1,0 +1,49 @@
+{
+  "type": "static",
+  "rows": [
+    {
+      "schema": "rocm_trace_event",
+      "cols": [
+        { "src": "producer", "dst": "producer" },
+        { "src": "job_id", "dst": "job_id" },
+        { "src": "pid", "dst": "pid" },
+        { "src": "window_start_ns", "dst": "window_start_ns" },
+        { "src": "window_end_ns", "dst": "window_end_ns" },
+        { "src": "window_sequence", "dst": "window_sequence" },
+        { "src": "chunk_index", "dst": "chunk_index" },
+        { "src": "chunk_count", "dst": "chunk_count" },
+        { "src": "records[valid_fields]", "dst": "valid_fields" },
+        { "src": "records[kind]", "dst": "kind" },
+        { "src": "records[operation]", "dst": "operation" },
+        { "src": "records[kind_name]", "dst": "kind_name" },
+        { "src": "records[operation_name]", "dst": "operation_name" },
+        { "src": "records[start_timestamp]", "dst": "start_timestamp" },
+        { "src": "records[end_timestamp]", "dst": "end_timestamp" },
+        { "src": "records[correlation_internal]", "dst": "correlation_internal" },
+        { "src": "records[correlation_external]", "dst": "correlation_external" },
+        { "src": "records[thread_id]", "dst": "thread_id" },
+        { "src": "records[agent_id]", "dst": "agent_id" },
+        { "src": "records[queue_id]", "dst": "queue_id" },
+        { "src": "records[kernel_id]", "dst": "kernel_id" },
+        { "src": "records[dispatch_id]", "dst": "dispatch_id" },
+        { "src": "records[src_agent_id]", "dst": "src_agent_id" },
+        { "src": "records[dst_agent_id]", "dst": "dst_agent_id" },
+        { "src": "records[bytes]", "dst": "bytes" },
+        { "src": "records[address]", "dst": "address" },
+        { "src": "records[src_address]", "dst": "src_address" },
+        { "src": "records[dst_address]", "dst": "dst_address" },
+        { "src": "records[flags]", "dst": "flags" },
+        { "src": "records[version]", "dst": "version" },
+        { "src": "records[instance]", "dst": "instance" },
+        { "src": "records[private_segment_size]", "dst": "private_segment_size" },
+        { "src": "records[group_segment_size]", "dst": "group_segment_size" },
+        { "src": "records[workgroup_x]", "dst": "workgroup_x" },
+        { "src": "records[workgroup_y]", "dst": "workgroup_y" },
+        { "src": "records[workgroup_z]", "dst": "workgroup_z" },
+        { "src": "records[grid_x]", "dst": "grid_x" },
+        { "src": "records[grid_y]", "dst": "grid_y" },
+        { "src": "records[grid_z]", "dst": "grid_z" }
+      ]
+    }
+  ]
+}
